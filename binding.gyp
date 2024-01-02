@@ -9,7 +9,7 @@
                 "src/boolberry.cc",
                 "src/c11.c",
                 "src/cryptonight.c",
-				"src/cryptonight_fast.c",
+		"src/cryptonight_fast.c",
                 "src/fresh.c",
 		"src/memehash.c",
                 "src/fugue.c",
@@ -82,7 +82,7 @@
                 "<!(node -e \"require('nan')\")"
             ],
             "cflags_cc": [
-                "-std=c++14"
+                "-std=c++17"
             ],
         }
     ]
